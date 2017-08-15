@@ -1,0 +1,1 @@
+Render multiplication table in HTML canvas.
