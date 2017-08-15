@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Multiplication tables rendering</title>
+
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+	<div class="panel">
+		<label>Modulo: </label><input id="modulo" type="number" step="1" value="10" min="0">
+		<label>Table: </label><input id="table" type="number" step="1" value="3" min="0">
+		<input id="enableText" type="checkbox" checked> Enable text
+		<input id="enablePoint" type="checkbox" checked> Enable Point rendering
+	</div>
+
+	<canvas id="game" height="700" width="600"></canvas>
+
+
+	<script src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+				  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+				  crossorigin="anonymous"></script>
+	<script src="Vector.js" type="text/javascript"></script>
+	<script src="App.js" type="text/javascript"></script>
+	
+</body>
+</html>
